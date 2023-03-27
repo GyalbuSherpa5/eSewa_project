@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Book {
+public class Book implements Comparable {
     String a;
     int b;
     int p;
@@ -12,7 +12,7 @@ public class Book {
     }
 
     public String toString() {
-        return a + " pages " + b;
+        return a + " pages " + b+" price "+ p;
     }
 
 
@@ -34,6 +34,7 @@ public class Book {
             System.out.println(i.next());
         }
         linklist.remove(b1);
+
         System.out.println(linklist);
 
         TreeSet<Book>sortBook= new TreeSet<>();
@@ -41,10 +42,22 @@ public class Book {
         sortBook.add(b2);
         sortBook.add(b3);
         System.out.println(sortBook);
-
-
     }
 
 
+    @Override
+    public int compareTo(Object o) {
+        Book e=(Book)o;
+        if(this.p>e.p){
+            return -1;
+        }
+        else if(this.p<e.p){
+            return 1;
 
+        }
+        else{
+            return 0;
+        }
+
+    }
 }

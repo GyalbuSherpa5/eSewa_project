@@ -1,7 +1,6 @@
 import java.util.SortedMap;
 import java.util.TreeMap;
 
-
 class Student implements Comparable {
     String name;
     int marks;
