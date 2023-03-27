@@ -1,4 +1,4 @@
-package week_2.day8;
+package week_2.day8.assignments;
 
 import java.util.ArrayList;
 import java.util.Collections;
