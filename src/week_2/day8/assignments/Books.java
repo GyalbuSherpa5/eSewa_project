@@ -2,7 +2,7 @@ package week_2.day8.assignments;
 
 import java.util.Comparator;
 
-public class Books implements Comparable{
+public class Books implements Comparable {
     String name;
     int price;
 
@@ -22,13 +22,11 @@ public class Books implements Comparable{
         Books b = (Books) o;
         int o2 = b.price;
 
-        if(o1<o2){
+        if (o1 < o2) {
             return -1;
-        }
-        else if(o1>o2){
+        } else if (o1 > o2) {
             return +1;
-        }
-        else{
+        } else {
             return 0;
         }
     }
@@ -41,23 +39,22 @@ public class Books implements Comparable{
                 '}' + "\n";
     }
 }
-class BooksDecending implements Comparator{
+
+class BooksDecending implements Comparator {
 
     @Override
     public int compare(Object o1, Object o2) {
-        Books b1 = (Books)o1;
-        Books b2 = (Books)o2;
+        Books b1 = (Books) o1;
+        Books b2 = (Books) o2;
 
         int p1 = b1.price;
         int p2 = b2.price;
 
-        if(p1<p2){
+        if (p1 < p2) {
             return +1;
-        }
-        else if(p1>p2){
+        } else if (p1 > p2) {
             return -1;
-        }
-        else{
+        } else {
             return 0;
         }
     }
