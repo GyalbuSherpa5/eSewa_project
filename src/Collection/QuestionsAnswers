@@ -1,0 +1,60 @@
+1. What is the difference between a class and an interface in object-oriented programming?When would you use
+   an interface instead of a class? Can a class implement multiple interfaces? If so, how would you do this?
+-->
+                    Class                                           interface
+     a. It is a blueprint for creating objects.         a. It is a blueprint of the class.
+     b. It can be instantiated i.e create a object.     b. It can't be instantiated
+     c. It can have its own implementation of methods   c. It only defines a set of methods and properties that
+        and properties                                     must be implemented by any class that implements the
+                                                           interface
+     d. It's field can be of any type.                  d. It's fields are static, public, and final by default
+                                                           and methods are public and abstract.
+
+--> We can use interface when you want to define a set of methods and properties that must be implemented by
+    multiple classes.
+
+--> Yes, a class can implement multiple interfaces.
+--> We can do this by implementing multiple interfaces and separating them with commas in the class declaration.
+    For example:
+        public class Dog{
+            void bark();
+        }
+        public class Lion{
+            void roar();
+        }
+        public class Demo implements Dog,Lion{
+            public void bark(){
+                System.out.println("Dog is barking");
+            }
+            public void roar(){
+                System.out.println("Lion is roaring");
+            }
+            public static void main(String args[]){
+                Demo boj=new Demo();
+                obj.bark();
+                obj.roar();
+            }
+        }
+
+2.
+a. What is collection framework? What is an Iterator in Java, and how is it used? The purpose of hasNext() and
+   next()?
+--> Collection framework in java is a framework that provides an architecture to store and manipulate the group
+    of objects.
+
+--> An Iterator in java is an object that enables you to traverse or loop through a collection of objects,
+    such as an ArrayList or a HashSet, one element at a time.
+    To use an iterator, you first need to obtain an instance of the Iterator interface for the collection you
+    want to iterate over. You can do this by calling the iterator() method on the collection object.
+    For example:
+        ArrayList<String> list = new ArrayList<String>();
+        // Add some elements to the list...
+        Iterator<String> itr = list.iterator();
+
+--> The purpose of hasNext() is to return true if the iterator has more elements to traverse otherwise false.
+    The purpose of next() is to return the next element in the collection and advances the iterator.
+
+b. What is the time complexity of adding, removing, and searching for an element in an Array, Linked List,
+   Stack, and Queue?
+-->
+
