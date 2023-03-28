@@ -16,10 +16,10 @@
 --> Yes, a class can implement multiple interfaces.
 --> We can do this by implementing multiple interfaces and separating them with commas in the class declaration.
     For example:
-        public class Dog{
+        public interface Dog{
             void bark();
         }
-        public class Lion{
+        public interface Lion{
             void roar();
         }
         public class Demo implements Dog,Lion{
@@ -53,3 +53,72 @@ a. What is collection framework? What is an Iterator in Java, and how is it used
 
 --> The purpose of hasNext() is to return true if the iterator has more elements to traverse otherwise false.
     The purpose of next() is to return the next element in the collection and advances the iterator.
+
+b. What is the time complexity of adding, removing, and searching for an element in an Array, Linked List,
+   Stack, and Queue?
+-->
+    a. Array
+        Adding at the end: O(1)
+        Adding at a specific index: O(n)
+        Removing at the end: O(1)
+        Removing at a specific index: O(n)
+        Searching for an element: O(n)
+
+    b. LinkedList
+        Adding at the beginning: O(1)
+        Adding at the end: O(1)
+        Adding at a specific index: O(n)
+        Removing at the beginning: O(1)
+        Removing at the end: O(1)
+        Removing at a specific index: O(n)
+        Searching for an element: O(n)
+
+    c. Stack
+        Adding an element (push): O(1)
+        Removing the top element (pop): O(1)
+        Accessing the top element: O(1)
+
+    d. Queue
+        Adding an element (enqueue): O(1)
+        Removing the first element (dequeue): O(1)
+        Accessing the first element: O(1)
+
+c. What is the List interface in Java, and what are some common implementations of it?
+--> List interface is the child interface of Collection interface that inhibits a list type data structure in
+    which we can store the ordered collection of objects with duplicates allowed.
+
+--> Some of the common implementations of it are:
+    a. ArrayList
+        The ArrayList class implements the List interface and uses a dynamic array to store the duplicate element
+        of different data types. It maintains the insertion order and is non-synchronized. The elements stored
+        in the ArrayList class can be randomly accessed.
+
+    b. LinkedList
+        LinkedList implements the Collection interface and uses a doubly linked list internally to store the
+        elements. It can store the duplicate elements. It maintains the insertion order and is not synchronized.
+        In LinkedList, the manipulation is fast because no shifting is required.
+
+    c. Vector
+        Vector uses a dynamic array to store the data elements. It is similar to ArrayList. However, It is
+        synchronized and contains many methods that are not the part of Collection framework.
+
+    d. Stack
+        The stack is the subclass of Vector. It implements the last-in-first-out data structure, i.e., Stack.
+        The stack contains all of the methods of Vector class and also provides its methods like boolean push(),
+        boolean peek(), boolean push(object o), which defines its properties.
+
+
+d. What is the difference between a List and a Set in Java?
+-->
+                List                                                    Set
+     a. It can contains duplicate elements.            a. It can contains only unique elements.
+     b. It maintains the order of the elements as      b. It does not guarantee any particular order.
+        they are added to the list
+     c. It allows elements to be accessed using an     c. It doesn't allows elements to be accessed using an
+        index.                                            index.
+     d. Adding, removing, and accessing elements in    d. Adding, removing, and accessing elements in a Set is
+        a list is slower.                                 faster.
+     e. It uses an array or linked list to store its   e. It uses hashing to store its elements.
+        elements.
+     f. It is implemented by ArrayList, LinkedList,    f. It is implemented by HashSet, LinkedHashSet and treeSet.
+        Vector and Stack.

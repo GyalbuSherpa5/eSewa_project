@@ -33,9 +33,8 @@ public class TicTacToe {
         ) {
             System.out.println("Player " + symbol + " Wins");
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
 
     static boolean checkEmptyCell(String[][] arr, String symbol, int a, int b) {

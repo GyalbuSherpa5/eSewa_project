@@ -27,9 +27,8 @@ public class TTT {
         ) {
             System.out.println("Player " + symbol + " wins");
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
 
     static boolean checkEmptyCell(String[] arr, String symbol, int a) {
