@@ -16,10 +16,10 @@
 --> Yes, a class can implement multiple interfaces.
 --> We can do this by implementing multiple interfaces and separating them with commas in the class declaration.
     For example:
-        public class Dog{
+        public interface Dog{
             void bark();
         }
-        public class Lion{
+        public interface Lion{
             void roar();
         }
         public class Demo implements Dog,Lion{
