@@ -3,6 +3,8 @@ package week_2.day8.assignments;
 import java.awt.image.AreaAveragingScaleFilter;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Assignment4 {
     public static void main(String[] args) {
@@ -13,15 +15,25 @@ public class Assignment4 {
         Employee e3 = new Employee("son", 3, 33);
         Employee e4 = new Employee("son", 4, 23);
         Employee e2 = new Employee("don", 2, 51);
-//        Employee e5 = new Employee("don", 3, 513);
-//        Employee e6 = new Employee("don", 3, 513);
+        Employee e5 = new Employee("don", 3, 513);
+        Employee e6 = new Employee("dagssadasdf", 3, 513);
 
         al.add(e1);
         al.add(e2);
         al.add(e3);
         al.add(e4);
-//        al.add(e5);
-//        al.add(e6);
+        al.add(e5);
+        al.add(e6);
+
+        Map<String, List<Employee>> map = new HashMap<>();
+
+        for(Employee e: al){
+            List<Employee> emps = map.getOrDefault(e.getName(),new ArrayList<>());
+            emps.add(e);
+            map.put(e.getName(),emps);
+        }
+        System.out.println(map);
+
 
         ArrayList<String> indi2 = new ArrayList<>();
 
@@ -45,7 +57,7 @@ public class Assignment4 {
                 }
             }
         }
-        System.out.println(indi2);
+//        System.out.println(indi2);
 //        System.out.println(indi.size());
 
 
