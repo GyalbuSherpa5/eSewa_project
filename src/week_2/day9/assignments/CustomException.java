@@ -29,7 +29,6 @@ public class CustomException {
 //            System.out.println(e);
 //        }
 //        System.out.println("h");
-
         try{
             if(age<18){
                 throw new MyRunTimeException("i am don");
