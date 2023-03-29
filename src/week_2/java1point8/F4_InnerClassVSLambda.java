@@ -29,6 +29,14 @@ public class F4_InnerClassVSLambda {
         If anonymous Inner class implements an interface that contains single abstract method then only we can
         replace that anonymous inner class with lambda expression.
 
+        Anonymous Inner class can extend a normal class
+        Anonymous Inner class can extend an abstract class
+        Anonymous Inner class can implement an interface which contains any number of abstract methods
+
+        Lambda expression can implement an interface which contains a single abstract method(FI)
+
+        Anonymous inner class > lambda expression
+
      */
     public static void main(String[] args) {
         ArrayList<Employee> emp = new ArrayList<>();
