@@ -1,6 +1,7 @@
 package practiceQuestion;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Group {
 
@@ -8,7 +9,6 @@ public class Group {
     public static <Arraylist> void main(String[] args) {
         boolean flag = true;
 
-        HashMap<String, ArrayList> map = new HashMap<>();
 
 
         Employee emp1 = new Employee("Rupesh", "Boudha", 6000);
@@ -19,13 +19,13 @@ public class Group {
         Employee emp5 = new Employee("Rupesh", "Chabhail", 9000);
 
 //Grouping Element by name 1st method.
-//        ArrayList<Employee> l = new ArrayList<>();
-//        l.add(emp2);
-//        l.add(emp3);
-//        l.add(emp4);
-//        l.add(emp1);
-//        l.add(emp5);
-//
+        ArrayList<Employee> l = new ArrayList<>();
+        l.add(emp2);
+        l.add(emp3);
+        l.add(emp4);
+        l.add(emp1);
+        l.add(emp5);
+
 //        for (int i = 0; i < l.size(); i++) {
 //
 //            ArrayList<Employee> l1 = new ArrayList<>();
@@ -57,6 +57,14 @@ public class Group {
 
 
 
+
+// By using Stream
+
+        HashMap<String, List<Employee>> map =
+                (HashMap<String, List<Employee>>) l.stream().collect(Collectors.groupingBy(Employee::getName));
+
+
+        System.out.println(map);
 
 
 
