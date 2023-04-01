@@ -6,11 +6,15 @@ class Account implements Serializable {
     String userName = "i am ";
     transient String password = "don";
 
+    transient int pin = 1234;
+
     @Serial
     private void writeObject(ObjectOutputStream os) throws Exception{
         os.defaultWriteObject();
         String encryptedPass = "123"+password;
         os.writeObject(encryptedPass);
+        int encryptedPin = 123+pin;
+        os.writeObject(encryptedPin);
     }
 
     @Serial
@@ -18,6 +22,8 @@ class Account implements Serializable {
         is.defaultReadObject();
         String decryptedPass = (String)is.readObject();
         password = decryptedPass.substring(3);
+        int decryptedPin = is.readInt();
+        pin = decryptedPin-123;
     }
 }
 
@@ -48,7 +54,7 @@ public class F3_CustomizedSerialization {
      */
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         Account a = new Account();
-        System.out.println(a.userName + " " + a.password);
+        System.out.println(a.userName + " " + a.password+ " "+ a.pin);
 
         FileOutputStream fos = new FileOutputStream("don.ser");
         ObjectOutputStream oos = new ObjectOutputStream(fos);
@@ -57,7 +63,7 @@ public class F3_CustomizedSerialization {
         FileInputStream fis = new FileInputStream("don.ser");
         ObjectInputStream ois = new ObjectInputStream(fis);
         Account a2 = (Account) ois.readObject();
-        System.out.println(a2.userName + " " + a2.password);
+        System.out.println(a2.userName + " " + a2.password+ " "+ a2.pin);
 
     }
 }
