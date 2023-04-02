@@ -48,15 +48,16 @@ public class FlightDataReader {
         }
 
 
-        // Sorting currAltitude and saving to this list from map
+        // Sorted currAltitude are saved to this list from map
         ArrayList<ArrayList<Map.Entry<String, FlightData>>> tail = new ArrayList<>();
 
-        // Counting file in each main file and saving to this arrayList
+        // Counting inner content in each main file and saving to this arrayList
         ArrayList<Object> count = new ArrayList<>();
 
-        ArrayList<Map.Entry<String, FlightData>> entries;
+
         for (TreeMap<String, FlightData> flights : map.values()) {
-            entries = new ArrayList<>(flights.entrySet());
+            // Converting inner nested map to arraylist and sorting the currAltitude
+            ArrayList<Map.Entry<String, FlightData>> entries = new ArrayList<>(flights.entrySet());
             entries.sort(((o1, o2) ->
                     o1.getValue().currAltitude < o2.getValue().currAltitude ? -1 :
                             o1.getValue().currAltitude > o2.getValue().currAltitude ? 1 : 0
