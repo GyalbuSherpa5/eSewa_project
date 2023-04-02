@@ -19,7 +19,6 @@ public class FlightDataReader {
 
         // Reading from csv file and saving to this arrayList
         ArrayList<FlightData> flight = new ArrayList<>();
-
         String line;
         while ((line = br.readLine()) != null) {
             String[] split = line.split(",");
