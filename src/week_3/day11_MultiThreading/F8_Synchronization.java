@@ -1,13 +1,12 @@
 package week_3.day11_MultiThreading;
 
-class Display{
-    public synchronized void wish(String name){
+class Display {
+    public static synchronized void wish(String name) {
         for (int i = 0; i < 10; i++) {
             System.out.println("Good morning");
-            try{
+            try {
                 Thread.sleep(500);
-            }
-            catch (InterruptedException e){
+            } catch (InterruptedException e) {
 
             }
             System.out.println(name);
@@ -15,7 +14,7 @@ class Display{
     }
 }
 
-class Tt extends Thread{
+class Tt extends Thread {
     Display d;
     String name;
 
@@ -23,7 +22,8 @@ class Tt extends Thread{
         this.d = d;
         this.name = name;
     }
-    public void run(){
+
+    public void run() {
         d.wish(name);
     }
 }
@@ -47,14 +47,31 @@ public class F8_Synchronization {
         if a thread wants to execute synchronize on the given object, first it has to get lock of that object. Once
         the thread is locked then it is allowed to execute any synchronize method on that object. Once method
         execution completes, automatically thread releases the lock.
-        Acquiring and releasing lock is internally taken care by jvm and programmer is not responsible for this activity.
+        Acquiring and releasing lock is internally taken care by jvm and programmer is not responsible for this
+        activity.
+     */
+
+    /*
+        Class level lock:
+        Every class in java has a unique lock which is nothing but class level lock.
+        If a thread wants to execute a static synchronize method then thread require class level lock. Once thread
+        got class level lock then it is allowed to execute any static synchronize method of that class.
+        Once a method execution completes, automatically thread releases lock.
+
+
+        while executing static sync method, the remaining threads are not allowed to execute any static sync method of
+         that class simultaneously, but remaining threads are allowed to execute the following methods simultaneously:
+        1) normal static method
+        2) sync instance method
+        3) normal instance method
      */
     public static void main(String[] args) {
         Display d = new Display();
-        Tt t  = new Tt(d,"don");
-        Tt t2  = new Tt(d,"hero");
-        Tt t3  = new Tt(d,"son");
-        Tt t4  = new Tt(d,"zero");
+        Display d2 = new Display();
+        Tt t = new Tt(d, "don");
+        Tt t2 = new Tt(d, "hero");
+        Tt t3 = new Tt(d2, "son");
+        Tt t4 = new Tt(d2, "zero");
         t.start();
         t2.start();
         t3.start();
