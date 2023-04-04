@@ -15,6 +15,11 @@ import java.util.concurrent.Executors;
 
 public class FlightDataMain {
 
+    static ArrayList<String> head;
+    static ArrayList<ArrayList<Map.Entry<String, FlightData>>> tail;
+
+    static ArrayList<Object> countFile;
+
     public ArrayList<FlightData> csvReader(BufferedReader br) throws IOException {
 
         ArrayList<FlightData> flight = new ArrayList<>();
@@ -65,7 +70,7 @@ public class FlightDataMain {
 
     }
 
-    public HashMap<String, ArrayList<Map.Entry<String, FlightData>>> csvWriter(ArrayList<String> head,
+    public static HashMap<String, ArrayList<Map.Entry<String, FlightData>>> csvWriter(ArrayList<String> head,
                                                                                ArrayList<ArrayList<Map.Entry<String,
                                                                                        FlightData>>> tail,
                                                                                ArrayList<Object> countFile) {
@@ -78,6 +83,7 @@ public class FlightDataMain {
                 if (i == j) {
                     finalSorted.put(head.get(i), tail.get(j));
                     try {
+
                         String variable = head.get(i);
                         System.out.println(variable + " -> " + countFile.get(i));
 
@@ -95,9 +101,7 @@ public class FlightDataMain {
                         p.flush();
                         p.close();
 
-                        ExecutorService service = Executors.newFixedThreadPool(50);
-//                        service.submit();
-                        service.shutdown();
+
 
                     } catch (Exception e) {
                         e.printStackTrace();
@@ -109,7 +113,7 @@ public class FlightDataMain {
         return finalSorted;
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException,NullPointerException {
 
 
         BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\hp\\IdeaProjects\\eSewa_Intern\\src\\week_3" +
@@ -126,21 +130,32 @@ public class FlightDataMain {
         // Saving the key in this arrayList
 
         Set<String> s = map.keySet();
-        ArrayList<String> head = new ArrayList<>(s);
+        head = new ArrayList<>(s);
 
         // Sorted currAltitude are saved to this list from map
-        ArrayList<ArrayList<Map.Entry<String, FlightData>>> tail = new ArrayList<>();
+        tail = new ArrayList<>();
 
         // Counting inner content in each main file and saving to this arrayList
-        ArrayList<Object> countFile = new ArrayList<>();
+        countFile = new ArrayList<>();
 
         flightObject.sortAltitude(map, tail, countFile);
 
         System.out.println("Total file " + head.size());
 
-        // saving the final output in this map
-        HashMap<String, ArrayList<Map.Entry<String, FlightData>>> finalSorted = flightObject.csvWriter(head, tail,
-                countFile);
+//         saving the final output in this map
+//        HashMap<String, ArrayList<Map.Entry<String, FlightData>>> finalSorted = flightObject.csvWriter(head, tail,
+//                countFile);
+
+
+        ExecutorService service = Executors.newFixedThreadPool(50);
+        long a = System.nanoTime();
+
+        FlightData d = new FlightData();
+        service.execute(d);
+
+        service.shutdown();
+        long b = System.nanoTime();
+        System.out.println(b-a);
         br.close();
     }
 }
