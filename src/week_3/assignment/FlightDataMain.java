@@ -15,6 +15,22 @@ import java.util.concurrent.Executors;
 
 public class FlightDataMain {
 
+    /*
+    This is Java code for processing flight data from a CSV file. It reads the data from the CSV file using a
+    BufferedReader and stores it in an ArrayList of FlightData objects. It then converts the ArrayList into a TreeMap
+    of, TreeMap of FlightData objects, where the outer TreeMap key is the destination airport code and the inner
+    TreeMap key is the departure time. The FlightData class contains fields for flight ID, current altitude,
+    destination airport code, departure time, and current location.
+
+    The code then sorts the FlightData objects within each inner TreeMap by current altitude and stores the sorted data
+    in an ArrayList of, ArrayList of Map.Entry of String and FlightData objects. The ArrayList also stores the count of
+    FlightData objects in each inner TreeMap.
+
+    Finally, the code writes the sorted FlightData objects to separate CSV files, one file for each destination airport
+    code, with the file name being the airport code. The file contains a header row followed by the FlightData objects
+    sorted by current altitude.
+     */
+
     static ArrayList<String> head;
     static ArrayList<ArrayList<Map.Entry<String, FlightData>>> tail;
 
@@ -71,9 +87,9 @@ public class FlightDataMain {
     }
 
     public static HashMap<String, ArrayList<Map.Entry<String, FlightData>>> csvWriter(ArrayList<String> head,
-                                                                               ArrayList<ArrayList<Map.Entry<String,
-                                                                                       FlightData>>> tail,
-                                                                               ArrayList<Object> countFile) {
+                                                                                      ArrayList<ArrayList<Map.Entry<String,
+                                                                                              FlightData>>> tail,
+                                                                                      ArrayList<Object> countFile) {
 
         HashMap<String, ArrayList<Map.Entry<String, FlightData>>> finalSorted = new HashMap<>();
 
@@ -90,7 +106,7 @@ public class FlightDataMain {
                         PrintWriter p = new PrintWriter("C:\\Users\\hp\\IdeaProjects\\eSewa_Intern\\src\\week_3" +
                                 "\\assignment\\allFiles\\ " + variable + ".csv");
                         p.println(
-                                ", "+
+                                ", " +
                                         "flightId, " +
                                         "currAltitude, " +
                                         "destinationAirportCode, " +
@@ -100,7 +116,6 @@ public class FlightDataMain {
 
                         p.flush();
                         p.close();
-
 
 
                     } catch (Exception e) {
@@ -113,7 +128,7 @@ public class FlightDataMain {
         return finalSorted;
     }
 
-    public static void main(String[] args) throws IOException,NullPointerException {
+    public static void main(String[] args) throws IOException, NullPointerException {
 
 
         BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\hp\\IdeaProjects\\eSewa_Intern\\src\\week_3" +
@@ -155,7 +170,7 @@ public class FlightDataMain {
 
         service.shutdown();
         long b = System.nanoTime();
-        System.out.println(b-a);
+        System.out.println(b - a);
         br.close();
     }
 }
