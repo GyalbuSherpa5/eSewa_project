@@ -1,12 +1,11 @@
 package week_3.assignment;
 
-public class FlightData implements Runnable{
+public class FlightData{
     String flightId;
     int currAltitude;
     String destinationAirportCode;
     String deptTime;
     String currLocation;
-    FlightDataMain flight;
 
     public FlightData(String flightId, int currAltitude, String destinationAirportCode, String deptTime,
                       String currLocation) {
@@ -15,10 +14,6 @@ public class FlightData implements Runnable{
         this.destinationAirportCode = destinationAirportCode;
         this.deptTime = deptTime;
         this.currLocation = currLocation;
-    }
-
-    public FlightData() {
-
     }
 
     public String getDestinationAirportCode() {
@@ -43,9 +38,4 @@ public class FlightData implements Runnable{
         ", " + currLocation + '\n';
     }
 
-    @Override
-    public void run() {
-        System.out.println(".. job started by Thread : " + Thread.currentThread().getName());
-        FlightDataMain.csvWriter(FlightDataMain.head, FlightDataMain.tail, FlightDataMain.countFile);
-    }
 }

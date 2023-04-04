@@ -36,6 +36,8 @@ public class FlightDataMain {
 
     static ArrayList<Object> countFile;
 
+
+
     public ArrayList<FlightData> csvReader(BufferedReader br) throws IOException {
 
         ArrayList<FlightData> flight = new ArrayList<>();
@@ -99,23 +101,15 @@ public class FlightDataMain {
                 if (i == j) {
                     finalSorted.put(head.get(i), tail.get(j));
                     try {
+                        ExecutorService service = Executors.newFixedThreadPool(50);
+                        long a = System.nanoTime();
 
-                        String variable = head.get(i);
-                        System.out.println(variable + " -> " + countFile.get(i));
+                        CsvWriter d = new CsvWriter(head, tail, countFile);
+                        service.execute(d);
 
-                        PrintWriter p = new PrintWriter("C:\\Users\\hp\\IdeaProjects\\eSewa_Intern\\src\\week_3" +
-                                "\\assignment\\allFiles\\ " + variable + ".csv");
-                        p.println(
-                                ", " +
-                                        "flightId, " +
-                                        "currAltitude, " +
-                                        "destinationAirportCode, " +
-                                        "deptTime, " +
-                                        "currLocation");
-                        p.println("," + tail.get(j));
-
-                        p.flush();
-                        p.close();
+                        service.shutdown();
+                        long b = System.nanoTime();
+                        System.out.println(b - a);
 
 
                     } catch (Exception e) {
@@ -158,19 +152,10 @@ public class FlightDataMain {
         System.out.println("Total file " + head.size());
 
 //         saving the final output in this map
-//        HashMap<String, ArrayList<Map.Entry<String, FlightData>>> finalSorted = flightObject.csvWriter(head, tail,
-//                countFile);
+        HashMap<String, ArrayList<Map.Entry<String, FlightData>>> finalSorted = flightObject.csvWriter(head, tail,
+                countFile);
 
-
-        ExecutorService service = Executors.newFixedThreadPool(50);
-        long a = System.nanoTime();
-
-        FlightData d = new FlightData();
-        service.execute(d);
-
-        service.shutdown();
-        long b = System.nanoTime();
-        System.out.println(b - a);
         br.close();
     }
+
 }
