@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T12NPS54D256KYFJBHRG, currAltitude=1519, destinationAirportCode=MSX, deptTime='12:01 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T12NPS54D256KYFJBHRG, 1519, MSX, 12:01 AM, N/A
 ]

@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T15P4QR4E38F3A6RH1V8, currAltitude=203, destinationAirportCode=CYA, deptTime='12:00 AM, currLocation='Calangain
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T15P4QR4E38F3A6RH1V8, 203, CYA, 12:00 AM, Calangain
 ]

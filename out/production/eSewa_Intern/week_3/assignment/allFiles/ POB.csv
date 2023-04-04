@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T2PC2HR3HC9YB9H1HBXC, currAltitude=217, destinationAirportCode=POB, deptTime='12:03 AM, currLocation='Hayil
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T2PC2HR3HC9YB9H1HBXC, 217, POB, 12:03 AM, Hayil
 ]

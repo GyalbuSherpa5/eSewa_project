@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T2NC5G6RK7ZCZ31BRSP7, currAltitude=7, destinationAirportCode=WOS, deptTime='12:03 AM, currLocation='Évreux
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T2NC5G6RK7ZCZ31BRSP7, 7, WOS, 12:03 AM, Évreux
 ]

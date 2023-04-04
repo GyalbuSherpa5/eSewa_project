@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T1KXJETG81Z8MEV7NXY7, currAltitude=150, destinationAirportCode=LNQ, deptTime='12:03 AM, currLocation='Lysyanka
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T1KXJETG81Z8MEV7NXY7, 150, LNQ, 12:03 AM, Lysyanka
 ]

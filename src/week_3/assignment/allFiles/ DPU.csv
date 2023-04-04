@@ -1,2 +1,3 @@
-[12:02 AM=flightId=01GWK9T2SZH99ZMHKD1PPB54J2, currAltitude=870, destinationAirportCode=DPU, deptTime='12:02 AM, currLocation='El Aguacate
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:02 AM=01GWK9T2SZH99ZMHKD1PPB54J2, 870, DPU, 12:02 AM, El Aguacate
 ]

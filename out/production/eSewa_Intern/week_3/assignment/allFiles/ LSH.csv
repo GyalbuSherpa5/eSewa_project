@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T1EM0VQGQYS5B2FS4MTS, currAltitude=2450, destinationAirportCode=LSH, deptTime='12:00 AM, currLocation='Lyambir’
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T1EM0VQGQYS5B2FS4MTS, 2450, LSH, 12:00 AM, Lyambir’
 ]

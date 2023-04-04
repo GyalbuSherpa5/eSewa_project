@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T2V5M5XSRQJKGA444Q60, currAltitude=20, destinationAirportCode=SPX, deptTime='12:01 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T2V5M5XSRQJKGA444Q60, 20, SPX, 12:01 AM, N/A
 ]

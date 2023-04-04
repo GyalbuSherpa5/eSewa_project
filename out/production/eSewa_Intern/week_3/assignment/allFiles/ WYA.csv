@@ -1,3 +1,4 @@
-[12:04 AM=flightId=01GWK9T1RR4VS88H32ZA6HCFRH, currAltitude=41, destinationAirportCode=WYA, deptTime='12:04 AM, currLocation='N/A
-, 12:03 AM=flightId=01GWK9T1RTKQ1KS17PTTEWH47T, currAltitude=2132, destinationAirportCode=WYA, deptTime='12:03 AM, currLocation='Norrköping
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:04 AM=01GWK9T1RR4VS88H32ZA6HCFRH, 41, WYA, 12:04 AM, N/A
+, 12:03 AM=01GWK9T1RTKQ1KS17PTTEWH47T, 2132, WYA, 12:03 AM, Norrköping
 ]

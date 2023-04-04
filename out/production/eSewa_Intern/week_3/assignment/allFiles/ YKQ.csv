@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T2HSZZXZ6CTM06KEYPZ7, currAltitude=80, destinationAirportCode=YKQ, deptTime='12:03 AM, currLocation='Vargön
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T2HSZZXZ6CTM06KEYPZ7, 80, YKQ, 12:03 AM, Vargön
 ]

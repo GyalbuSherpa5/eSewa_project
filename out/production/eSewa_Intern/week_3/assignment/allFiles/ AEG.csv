@@ -1,2 +1,3 @@
-[12:04 AM=flightId=01GWK9T12ATS5AMY8GXZEQKTHZ, currAltitude=922, destinationAirportCode=AEG, deptTime='12:04 AM, currLocation='Caminaca
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:04 AM=01GWK9T12ATS5AMY8GXZEQKTHZ, 922, AEG, 12:04 AM, Caminaca
 ]

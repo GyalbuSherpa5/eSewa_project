@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T1REPQ8FC5Q4SD09FWHT, currAltitude=0, destinationAirportCode=YBQ, deptTime='12:01 AM, currLocation='Mabusag
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1REPQ8FC5Q4SD09FWHT, 0, YBQ, 12:01 AM, Mabusag
 ]

@@ -1,2 +1,3 @@
-[12:04 AM=flightId=01GWK9T2NG0D0BFDBR44GDW575, currAltitude=5889, destinationAirportCode=KSY, deptTime='12:04 AM, currLocation='Sumeng
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:04 AM=01GWK9T2NG0D0BFDBR44GDW575, 5889, KSY, 12:04 AM, Sumeng
 ]

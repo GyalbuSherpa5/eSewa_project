@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T14ZFC8TC3F8G0TYN69T, currAltitude=75, destinationAirportCode=EPU, deptTime='12:01 AM, currLocation='Tønsberg
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T14ZFC8TC3F8G0TYN69T, 75, EPU, 12:01 AM, Tønsberg
 ]

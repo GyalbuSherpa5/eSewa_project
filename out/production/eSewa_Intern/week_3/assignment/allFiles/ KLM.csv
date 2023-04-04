@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T2T76VQE5C58J95V6JRB, currAltitude=425, destinationAirportCode=KLM, deptTime='12:00 AM, currLocation='Niños Heroes
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T2T76VQE5C58J95V6JRB, 425, KLM, 12:00 AM, Niños Heroes
 ]

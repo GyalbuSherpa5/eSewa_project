@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T2T3VM8CMG5S85WPSETB, currAltitude=53, destinationAirportCode=SUI, deptTime='12:00 AM, currLocation='Huaping
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T2T3VM8CMG5S85WPSETB, 53, SUI, 12:00 AM, Huaping
 ]

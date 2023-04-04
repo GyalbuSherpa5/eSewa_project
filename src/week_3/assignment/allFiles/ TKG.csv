@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T2NBZP20WGS8M3M11CYQ, currAltitude=282, destinationAirportCode=TKG, deptTime='12:00 AM, currLocation='Bidikotak
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T2NBZP20WGS8M3M11CYQ, 282, TKG, 12:00 AM, Bidikotak
 ]

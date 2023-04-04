@@ -1,2 +1,3 @@
-[12:04 AM=flightId=01GWK9T1GJ4X1BFS4SCDT7T0TW, currAltitude=223, destinationAirportCode=FIE, deptTime='12:04 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:04 AM=01GWK9T1GJ4X1BFS4SCDT7T0TW, 223, FIE, 12:04 AM, N/A
 ]

@@ -1,3 +1,4 @@
-[12:00 AM=flightId=01GWK9T21CFAR0YXFXY4KD2KY8, currAltitude=491, destinationAirportCode=CUG, deptTime='12:00 AM, currLocation='Germiston
-, 12:03 AM=flightId=01GWK9T21KDP21FZ6KPFCWEN3D, currAltitude=719, destinationAirportCode=CUG, deptTime='12:03 AM, currLocation='Qingu
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T21CFAR0YXFXY4KD2KY8, 491, CUG, 12:00 AM, Germiston
+, 12:03 AM=01GWK9T21KDP21FZ6KPFCWEN3D, 719, CUG, 12:03 AM, Qingu
 ]

@@ -1,2 +1,3 @@
-[12:04 AM=flightId=01GWK9T1NY31ATF8CGWTZ5M1XM, currAltitude=6193, destinationAirportCode=CIG, deptTime='12:04 AM, currLocation='Chinú
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:04 AM=01GWK9T1NY31ATF8CGWTZ5M1XM, 6193, CIG, 12:04 AM, Chinú
 ]

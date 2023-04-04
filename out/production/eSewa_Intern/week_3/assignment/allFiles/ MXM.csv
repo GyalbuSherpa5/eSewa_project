@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T1SGDW3HDKATATEDTSJD, currAltitude=16, destinationAirportCode=MXM, deptTime='12:03 AM, currLocation='Scranton
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T1SGDW3HDKATATEDTSJD, 16, MXM, 12:03 AM, Scranton
 ]

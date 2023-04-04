@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T1VEWAXHNRWYPD7N3GXJ, currAltitude=2156, destinationAirportCode=PMG, deptTime='12:03 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T1VEWAXHNRWYPD7N3GXJ, 2156, PMG, 12:03 AM, N/A
 ]

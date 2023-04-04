@@ -1,2 +1,3 @@
-[12:04 AM=flightId=01GWK9T1Z5YVABZ4X4S5E103EB, currAltitude=130, destinationAirportCode=VIU, deptTime='12:04 AM, currLocation='Svorónos
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:04 AM=01GWK9T1Z5YVABZ4X4S5E103EB, 130, VIU, 12:04 AM, Svorónos
 ]

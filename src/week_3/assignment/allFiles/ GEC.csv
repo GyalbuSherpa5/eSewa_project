@@ -1,2 +1,3 @@
-[12:04 AM=flightId=01GWK9T20892F713KRRD5ZY9J3, currAltitude=146, destinationAirportCode=GEC, deptTime='12:04 AM, currLocation='Bendoroto
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:04 AM=01GWK9T20892F713KRRD5ZY9J3, 146, GEC, 12:04 AM, Bendoroto
 ]

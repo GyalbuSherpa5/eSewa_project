@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T1DQ3T35ZWTRBRP7260N, currAltitude=1709, destinationAirportCode=YKL, deptTime='12:00 AM, currLocation='Johnson City
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T1DQ3T35ZWTRBRP7260N, 1709, YKL, 12:00 AM, Johnson City
 ]

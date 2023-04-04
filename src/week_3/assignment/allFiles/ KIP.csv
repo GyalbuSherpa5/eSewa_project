@@ -1,3 +1,4 @@
-[12:01 AM=flightId=01GWK9T1FECFTN7JCK9BXAXMSX, currAltitude=1003, destinationAirportCode=KIP, deptTime='12:01 AM, currLocation='Xiaxi
-, 12:04 AM=flightId=01GWK9T15VRDTYAFM654WP2JJE, currAltitude=1003, destinationAirportCode=KIP, deptTime='12:04 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1FECFTN7JCK9BXAXMSX, 1003, KIP, 12:01 AM, Xiaxi
+, 12:04 AM=01GWK9T15VRDTYAFM654WP2JJE, 1003, KIP, 12:04 AM, N/A
 ]

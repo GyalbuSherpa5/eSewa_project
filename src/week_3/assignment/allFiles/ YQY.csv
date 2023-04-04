@@ -1,2 +1,3 @@
-[12:02 AM=flightId=01GWK9T1Y60PRTGT2PP43A7FWA, currAltitude=203, destinationAirportCode=YQY, deptTime='12:02 AM, currLocation='Srabah
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:02 AM=01GWK9T1Y60PRTGT2PP43A7FWA, 203, YQY, 12:02 AM, Srabah
 ]

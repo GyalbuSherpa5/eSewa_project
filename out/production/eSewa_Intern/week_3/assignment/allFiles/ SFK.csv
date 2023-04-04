@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T1KWFS272JHK7GBDH0HP, currAltitude=43, destinationAirportCode=SFK, deptTime='12:01 AM, currLocation='Zhangjiahe
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1KWFS272JHK7GBDH0HP, 43, SFK, 12:01 AM, Zhangjiahe
 ]

@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T16G31CKH4BH6RW952FT, currAltitude=71, destinationAirportCode=YZT, deptTime='12:01 AM, currLocation='Xom Tan Long
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T16G31CKH4BH6RW952FT, 71, YZT, 12:01 AM, Xom Tan Long
 ]

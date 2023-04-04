@@ -1,6 +1,6 @@
 package week_3.assignment;
 
-public class FlightData {
+public class FlightData implements Runnable{
     String flightId;
     int currAltitude;
     String destinationAirportCode;
@@ -31,10 +31,18 @@ public class FlightData {
     @Override
     public String toString() {
         return
-        "flightId=" + flightId +
-        ", currAltitude=" + currAltitude +
-        ", destinationAirportCode=" + destinationAirportCode +
-        ", deptTime='" + deptTime +
-        ", currLocation='" + currLocation + '\n';
+        flightId +
+        ", " + currAltitude +
+        ", " + destinationAirportCode +
+        ", " + deptTime +
+        ", " + currLocation + '\n';
+    }
+
+    @Override
+    public void run() {
+        long a = System.nanoTime();
+        System.out.println(flightId+ ".. job started by Thread : " + Thread.currentThread().getName());
+        long b = System.nanoTime();
+        System.out.println(b-a);
     }
 }

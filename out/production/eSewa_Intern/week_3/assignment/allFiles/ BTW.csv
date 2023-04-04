@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T22AGVB4KKXYSN6WVBHX, currAltitude=3, destinationAirportCode=BTW, deptTime='12:00 AM, currLocation='Lunenburg
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T22AGVB4KKXYSN6WVBHX, 3, BTW, 12:00 AM, Lunenburg
 ]

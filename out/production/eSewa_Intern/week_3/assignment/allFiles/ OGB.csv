@@ -1,2 +1,3 @@
-[12:02 AM=flightId=01GWK9T1PM0ZYQPJJM1B2CZ6A0, currAltitude=195, destinationAirportCode=OGB, deptTime='12:02 AM, currLocation='Wolowona
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:02 AM=01GWK9T1PM0ZYQPJJM1B2CZ6A0, 195, OGB, 12:02 AM, Wolowona
 ]

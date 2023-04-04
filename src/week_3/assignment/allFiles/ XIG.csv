@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T16VJK74J8MQQVMMNAPX, currAltitude=800, destinationAirportCode=XIG, deptTime='12:03 AM, currLocation='Perstorp
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T16VJK74J8MQQVMMNAPX, 800, XIG, 12:03 AM, Perstorp
 ]

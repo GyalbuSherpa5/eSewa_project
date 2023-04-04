@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T1GT02GRJDAKAPJ5B2MK, currAltitude=5267, destinationAirportCode=UET, deptTime='12:01 AM, currLocation='Fort Smith
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1GT02GRJDAKAPJ5B2MK, 5267, UET, 12:01 AM, Fort Smith
 ]

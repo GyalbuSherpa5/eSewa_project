@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T2NRGYCA6Q19VZ6TCPBM, currAltitude=961, destinationAirportCode=WHF, deptTime='12:01 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T2NRGYCA6Q19VZ6TCPBM, 961, WHF, 12:01 AM, N/A
 ]

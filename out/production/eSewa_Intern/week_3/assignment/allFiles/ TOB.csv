@@ -1,2 +1,3 @@
-[12:04 AM=flightId=01GWK9T1T1JYT7BCRFM6PFB2K1, currAltitude=519, destinationAirportCode=TOB, deptTime='12:04 AM, currLocation='Chaguaramas
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:04 AM=01GWK9T1T1JYT7BCRFM6PFB2K1, 519, TOB, 12:04 AM, Chaguaramas
 ]

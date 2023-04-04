@@ -1,2 +1,3 @@
-[12:02 AM=flightId=01GWK9T20TMQRVCKK5M3FXMNKF, currAltitude=565, destinationAirportCode=STI, deptTime='12:02 AM, currLocation='Camilaca
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:02 AM=01GWK9T20TMQRVCKK5M3FXMNKF, 565, STI, 12:02 AM, Camilaca
 ]

@@ -1,3 +1,4 @@
-[12:00 AM=flightId=01GWK9T13S6AN661MYBC1JKS59, currAltitude=98, destinationAirportCode=UVA, deptTime='12:00 AM, currLocation='Yuecheng
-, 12:04 AM=flightId=01GWK9T134V8R51Y939WNJAF4G, currAltitude=942, destinationAirportCode=UVA, deptTime='12:04 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T13S6AN661MYBC1JKS59, 98, UVA, 12:00 AM, Yuecheng
+, 12:04 AM=01GWK9T134V8R51Y939WNJAF4G, 942, UVA, 12:04 AM, N/A
 ]

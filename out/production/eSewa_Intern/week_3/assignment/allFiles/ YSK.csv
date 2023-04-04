@@ -1,2 +1,3 @@
-[12:04 AM=flightId=01GWK9T2VYE7270K6NQZZ5H21R, currAltitude=104, destinationAirportCode=YSK, deptTime='12:04 AM, currLocation='Skovorodino
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:04 AM=01GWK9T2VYE7270K6NQZZ5H21R, 104, YSK, 12:04 AM, Skovorodino
 ]

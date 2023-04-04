@@ -1,2 +1,3 @@
-[12:02 AM=flightId=01GWK9T2T4BBBF0WGBNEC45DRE, currAltitude=648, destinationAirportCode=GRJ, deptTime='12:02 AM, currLocation='Hudong
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:02 AM=01GWK9T2T4BBBF0WGBNEC45DRE, 648, GRJ, 12:02 AM, Hudong
 ]

@@ -1,3 +1,4 @@
-[12:00 AM=flightId=01GWK9T2QMRM6M167519VE7PB0, currAltitude=1884, destinationAirportCode=YLB, deptTime='12:00 AM, currLocation='N/A
-, 12:01 AM=flightId=01GWK9T2KNYXXGQ5RD0PR4R1Y9, currAltitude=1884, destinationAirportCode=YLB, deptTime='12:01 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T2QMRM6M167519VE7PB0, 1884, YLB, 12:00 AM, N/A
+, 12:01 AM=01GWK9T2KNYXXGQ5RD0PR4R1Y9, 1884, YLB, 12:01 AM, N/A
 ]

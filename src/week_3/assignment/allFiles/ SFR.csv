@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T2W29STJ8R5EQDR2FMXQ, currAltitude=1168, destinationAirportCode=SFR, deptTime='12:03 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T2W29STJ8R5EQDR2FMXQ, 1168, SFR, 12:03 AM, N/A
 ]

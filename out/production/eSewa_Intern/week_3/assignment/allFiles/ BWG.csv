@@ -1,3 +1,4 @@
-[12:03 AM=flightId=01GWK9T1P6RF70X9B5AEMNWQH2, currAltitude=547, destinationAirportCode=BWG, deptTime='12:03 AM, currLocation='N/A
-, 12:04 AM=flightId=01GWK9T2EY6Y3H0197C2112CQA, currAltitude=547, destinationAirportCode=BWG, deptTime='12:04 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T1P6RF70X9B5AEMNWQH2, 547, BWG, 12:03 AM, N/A
+, 12:04 AM=01GWK9T2EY6Y3H0197C2112CQA, 547, BWG, 12:04 AM, N/A
 ]

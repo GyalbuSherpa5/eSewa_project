@@ -1,2 +1,3 @@
-[12:02 AM=flightId=01GWK9T21ZYRBX32VWR46ZWEAE, currAltitude=1195, destinationAirportCode=CEX, deptTime='12:02 AM, currLocation='El Tambo
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:02 AM=01GWK9T21ZYRBX32VWR46ZWEAE, 1195, CEX, 12:02 AM, El Tambo
 ]

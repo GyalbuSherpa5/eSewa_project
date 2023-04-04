@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T1RN4VZQZ5NKFNC7DHN3, currAltitude=155, destinationAirportCode=MIN, deptTime='12:00 AM, currLocation='Caldelas
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T1RN4VZQZ5NKFNC7DHN3, 155, MIN, 12:00 AM, Caldelas
 ]

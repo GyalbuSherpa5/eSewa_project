@@ -1,2 +1,3 @@
-[12:02 AM=flightId=01GWK9T1JFQCSHAKYW0QR4EPTF, currAltitude=169, destinationAirportCode=NAC, deptTime='12:02 AM, currLocation='Río Alejandro
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:02 AM=01GWK9T1JFQCSHAKYW0QR4EPTF, 169, NAC, 12:02 AM, Río Alejandro
 ]

@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T1FNXE1GY81ADV1T5BQ7, currAltitude=83, destinationAirportCode=VOL, deptTime='12:01 AM, currLocation='Duisburg
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1FNXE1GY81ADV1T5BQ7, 83, VOL, 12:01 AM, Duisburg
 ]

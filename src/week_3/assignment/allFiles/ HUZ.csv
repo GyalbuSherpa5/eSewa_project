@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T1415RVYYTF8EBSWA9M7, currAltitude=50, destinationAirportCode=HUZ, deptTime='12:03 AM, currLocation='Estaca
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T1415RVYYTF8EBSWA9M7, 50, HUZ, 12:03 AM, Estaca
 ]

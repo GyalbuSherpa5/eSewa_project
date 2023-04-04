@@ -1,3 +1,4 @@
-[12:00 AM=flightId=01GWK9T2Q9EKZ46128WZZV5VDP, currAltitude=5550, destinationAirportCode=NBA, deptTime='12:00 AM, currLocation='N/A
-, 12:04 AM=flightId=01GWK9T1360N5JNCYWQZCB3DRK, currAltitude=5550, destinationAirportCode=NBA, deptTime='12:04 AM, currLocation='Vegachí
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T2Q9EKZ46128WZZV5VDP, 5550, NBA, 12:00 AM, N/A
+, 12:04 AM=01GWK9T1360N5JNCYWQZCB3DRK, 5550, NBA, 12:04 AM, Vegachí
 ]

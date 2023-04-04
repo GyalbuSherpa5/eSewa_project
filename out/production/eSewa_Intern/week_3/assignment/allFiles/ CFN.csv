@@ -1,2 +1,3 @@
-[12:02 AM=flightId=01GWK9T1JXQ9MCZBHAKWYKBJYD, currAltitude=30, destinationAirportCode=CFN, deptTime='12:02 AM, currLocation='Mosina
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:02 AM=01GWK9T1JXQ9MCZBHAKWYKBJYD, 30, CFN, 12:02 AM, Mosina
 ]

@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T1GY06FVGEJZNXVG5799, currAltitude=5, destinationAirportCode=TBI, deptTime='12:01 AM, currLocation='João Câmara
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1GY06FVGEJZNXVG5799, 5, TBI, 12:01 AM, João Câmara
 ]

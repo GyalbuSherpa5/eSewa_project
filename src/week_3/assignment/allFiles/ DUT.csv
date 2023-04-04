@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T1258WGC3XS1DFZYXGNJ, currAltitude=22, destinationAirportCode=DUT, deptTime='12:01 AM, currLocation='Jinan
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1258WGC3XS1DFZYXGNJ, 22, DUT, 12:01 AM, Jinan
 ]

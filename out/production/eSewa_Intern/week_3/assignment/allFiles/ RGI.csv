@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T1GGTCTWRNR6NGRMKYC9, currAltitude=10, destinationAirportCode=RGI, deptTime='12:00 AM, currLocation='Tomigusuku
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T1GGTCTWRNR6NGRMKYC9, 10, RGI, 12:00 AM, Tomigusuku
 ]

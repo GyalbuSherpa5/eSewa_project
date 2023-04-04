@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T1TCWS8B33374BP5Y0ET, currAltitude=587, destinationAirportCode=KOP, deptTime='12:03 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T1TCWS8B33374BP5Y0ET, 587, KOP, 12:03 AM, N/A
 ]

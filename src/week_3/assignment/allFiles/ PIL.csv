@@ -1,2 +1,3 @@
-[12:02 AM=flightId=01GWK9T2RGGXT465TZKFM6XQFZ, currAltitude=249, destinationAirportCode=PIL, deptTime='12:02 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:02 AM=01GWK9T2RGGXT465TZKFM6XQFZ, 249, PIL, 12:02 AM, N/A
 ]

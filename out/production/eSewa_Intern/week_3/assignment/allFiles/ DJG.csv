@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T2V77ZBNWSSD8NT3TKJ8, currAltitude=3176, destinationAirportCode=DJG, deptTime='12:01 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T2V77ZBNWSSD8NT3TKJ8, 3176, DJG, 12:01 AM, N/A
 ]

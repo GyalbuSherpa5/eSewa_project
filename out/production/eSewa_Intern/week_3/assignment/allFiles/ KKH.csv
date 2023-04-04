@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T1Y1FQZHZNFQ8GGDBMNJ, currAltitude=30, destinationAirportCode=KKH, deptTime='12:01 AM, currLocation='Huomachong
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1Y1FQZHZNFQ8GGDBMNJ, 30, KKH, 12:01 AM, Huomachong
 ]

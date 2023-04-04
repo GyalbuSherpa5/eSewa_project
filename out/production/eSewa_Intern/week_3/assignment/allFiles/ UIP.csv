@@ -1,4 +1,5 @@
-[12:00 AM=flightId=01GWK9T1SYTXHFJV0KJM3C0NPW, currAltitude=297, destinationAirportCode=UIP, deptTime='12:00 AM, currLocation='Xiping
-, 12:04 AM=flightId=01GWK9T1TXDP7TK8MZF3C4M7TR, currAltitude=699, destinationAirportCode=UIP, deptTime='12:04 AM, currLocation='N/A
-, 12:01 AM=flightId=01GWK9T1V4G8HR11CKCYHEHCDR, currAltitude=1213, destinationAirportCode=UIP, deptTime='12:01 AM, currLocation='Nova Era
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T1SYTXHFJV0KJM3C0NPW, 297, UIP, 12:00 AM, Xiping
+, 12:04 AM=01GWK9T1TXDP7TK8MZF3C4M7TR, 699, UIP, 12:04 AM, N/A
+, 12:01 AM=01GWK9T1V4G8HR11CKCYHEHCDR, 1213, UIP, 12:01 AM, Nova Era
 ]

@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T2N1B6DF5ZVHV0X9VCR5, currAltitude=570, destinationAirportCode=SWN, deptTime='12:03 AM, currLocation='Longchiqiao
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T2N1B6DF5ZVHV0X9VCR5, 570, SWN, 12:03 AM, Longchiqiao
 ]

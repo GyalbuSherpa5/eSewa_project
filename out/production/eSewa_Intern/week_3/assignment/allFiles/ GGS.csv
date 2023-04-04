@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T2QW964AE0V28S2NNBSX, currAltitude=356, destinationAirportCode=GGS, deptTime='12:03 AM, currLocation='Las Palmas
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T2QW964AE0V28S2NNBSX, 356, GGS, 12:03 AM, Las Palmas
 ]

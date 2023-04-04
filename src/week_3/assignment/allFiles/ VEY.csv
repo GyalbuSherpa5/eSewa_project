@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T2PT3BVW7B1AH9D6BCKR, currAltitude=326, destinationAirportCode=VEY, deptTime='12:03 AM, currLocation='Omuo-Ekiti
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T2PT3BVW7B1AH9D6BCKR, 326, VEY, 12:03 AM, Omuo-Ekiti
 ]

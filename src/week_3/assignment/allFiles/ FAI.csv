@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T1YATKZVBATGAE390DJP, currAltitude=439, destinationAirportCode=FAI, deptTime='12:03 AM, currLocation='Kawasaki
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T1YATKZVBATGAE390DJP, 439, FAI, 12:03 AM, Kawasaki
 ]

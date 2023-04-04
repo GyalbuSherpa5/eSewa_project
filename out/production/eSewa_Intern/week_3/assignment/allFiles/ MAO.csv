@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T1625FHSKPVT2R69Y4SE, currAltitude=264, destinationAirportCode=MAO, deptTime='12:01 AM, currLocation='Tacoma
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1625FHSKPVT2R69Y4SE, 264, MAO, 12:01 AM, Tacoma
 ]

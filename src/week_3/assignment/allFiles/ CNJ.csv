@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T1X8BY0QDRMG6NF3DYKQ, currAltitude=616, destinationAirportCode=CNJ, deptTime='12:00 AM, currLocation='Al Qaryatayn
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T1X8BY0QDRMG6NF3DYKQ, 616, CNJ, 12:00 AM, Al Qaryatayn
 ]

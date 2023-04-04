@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T211EG00YV2DRAY78163, currAltitude=1536, destinationAirportCode=RIV, deptTime='12:00 AM, currLocation='Runka
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T211EG00YV2DRAY78163, 1536, RIV, 12:00 AM, Runka
 ]

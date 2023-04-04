@@ -1,3 +1,4 @@
-[12:00 AM=flightId=01GWK9T15D5Y75N9BD5T5292ZS, currAltitude=1052, destinationAirportCode=OFF, deptTime='12:00 AM, currLocation='Ryūgasaki
-, 12:02 AM=flightId=01GWK9T1WHWZ27XS0E1DDA1DTX, currAltitude=1052, destinationAirportCode=OFF, deptTime='12:02 AM, currLocation='Levski
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T15D5Y75N9BD5T5292ZS, 1052, OFF, 12:00 AM, Ryūgasaki
+, 12:02 AM=01GWK9T1WHWZ27XS0E1DDA1DTX, 1052, OFF, 12:02 AM, Levski
 ]

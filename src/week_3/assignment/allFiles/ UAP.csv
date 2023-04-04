@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T1KNZ65VSD8VTDEB6G8X, currAltitude=16, destinationAirportCode=UAP, deptTime='12:00 AM, currLocation='Všenory
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T1KNZ65VSD8VTDEB6G8X, 16, UAP, 12:00 AM, Všenory
 ]

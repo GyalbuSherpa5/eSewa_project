@@ -1,2 +1,3 @@
-[12:02 AM=flightId=01GWK9T1N6HBNYXPJG9V1EV44V, currAltitude=1953, destinationAirportCode=UOS, deptTime='12:02 AM, currLocation='Shreveport
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:02 AM=01GWK9T1N6HBNYXPJG9V1EV44V, 1953, UOS, 12:02 AM, Shreveport
 ]

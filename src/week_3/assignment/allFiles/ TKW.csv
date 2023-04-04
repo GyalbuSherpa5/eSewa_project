@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T1VWVWCBE0DM1PREVPN4, currAltitude=5785, destinationAirportCode=TKW, deptTime='12:00 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T1VWVWCBE0DM1PREVPN4, 5785, TKW, 12:00 AM, N/A
 ]

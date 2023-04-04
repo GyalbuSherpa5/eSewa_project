@@ -1,3 +1,4 @@
-[12:01 AM=flightId=01GWK9T1HB7XAFYRP7CGWNEV5E, currAltitude=705, destinationAirportCode=PBX, deptTime='12:01 AM, currLocation='Kamo
-, 12:04 AM=flightId=01GWK9T1PKEBJJAZPWNKCN1ZY9, currAltitude=705, destinationAirportCode=PBX, deptTime='12:04 AM, currLocation='Tabia
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1HB7XAFYRP7CGWNEV5E, 705, PBX, 12:01 AM, Kamo
+, 12:04 AM=01GWK9T1PKEBJJAZPWNKCN1ZY9, 705, PBX, 12:04 AM, Tabia
 ]

@@ -1,2 +1,3 @@
-[12:04 AM=flightId=01GWK9T128GZKEY3NNX1QWCCRS, currAltitude=292, destinationAirportCode=ONJ, deptTime='12:04 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:04 AM=01GWK9T128GZKEY3NNX1QWCCRS, 292, ONJ, 12:04 AM, N/A
 ]

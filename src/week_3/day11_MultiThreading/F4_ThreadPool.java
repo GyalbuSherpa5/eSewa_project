@@ -18,7 +18,6 @@ class PrintJob implements Runnable{
         catch (InterruptedException e){
 
         }
-        System.out.println(name + ".. job done by "+ Thread.currentThread().getName());
     }
 }
 public class F4_ThreadPool {

@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T2QF0BK01Z3A0DZTPWHY, currAltitude=0, destinationAirportCode=YTP, deptTime='12:00 AM, currLocation='Capira
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T2QF0BK01Z3A0DZTPWHY, 0, YTP, 12:00 AM, Capira
 ]

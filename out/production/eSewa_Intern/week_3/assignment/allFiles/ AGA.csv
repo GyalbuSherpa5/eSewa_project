@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T15DANKZD4BKM2HC9YKZ, currAltitude=250, destinationAirportCode=AGA, deptTime='12:03 AM, currLocation='Kozyatyn
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T15DANKZD4BKM2HC9YKZ, 250, AGA, 12:03 AM, Kozyatyn
 ]

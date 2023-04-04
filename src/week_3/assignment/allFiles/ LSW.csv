@@ -1,2 +1,3 @@
-[12:02 AM=flightId=01GWK9T1XVMPVTPHNZ3SAXX520, currAltitude=90, destinationAirportCode=LSW, deptTime='12:02 AM, currLocation='Teculután
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:02 AM=01GWK9T1XVMPVTPHNZ3SAXX520, 90, LSW, 12:02 AM, Teculután
 ]

@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T2Q1WRM5GMEKMFYP8XZH, currAltitude=128, destinationAirportCode=TGJ, deptTime='12:03 AM, currLocation='Hechuan
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T2Q1WRM5GMEKMFYP8XZH, 128, TGJ, 12:03 AM, Hechuan
 ]

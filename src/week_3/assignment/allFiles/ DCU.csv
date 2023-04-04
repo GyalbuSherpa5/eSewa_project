@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T1VPXVQTV14JT008EHFE, currAltitude=592, destinationAirportCode=DCU, deptTime='12:00 AM, currLocation='Kemil
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T1VPXVQTV14JT008EHFE, 592, DCU, 12:00 AM, Kemil
 ]

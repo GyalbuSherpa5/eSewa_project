@@ -1,3 +1,4 @@
-[12:01 AM=flightId=01GWK9T1SVDDBRPMCNAF4EGPVN, currAltitude=604, destinationAirportCode=RAH, deptTime='12:01 AM, currLocation='N/A
-, 12:02 AM=flightId=01GWK9T1SH164PWYYCG0FMFRDZ, currAltitude=2461, destinationAirportCode=RAH, deptTime='12:02 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1SVDDBRPMCNAF4EGPVN, 604, RAH, 12:01 AM, N/A
+, 12:02 AM=01GWK9T1SH164PWYYCG0FMFRDZ, 2461, RAH, 12:02 AM, N/A
 ]

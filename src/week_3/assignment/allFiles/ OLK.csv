@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T14P1CZBAEEA050K9VP1, currAltitude=275, destinationAirportCode=OLK, deptTime='12:03 AM, currLocation='Bastia
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T14P1CZBAEEA050K9VP1, 275, OLK, 12:03 AM, Bastia
 ]

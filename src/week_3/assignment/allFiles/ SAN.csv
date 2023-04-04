@@ -1,2 +1,3 @@
-[12:04 AM=flightId=01GWK9T1HYFECCY54B12BWFH44, currAltitude=17, destinationAirportCode=SAN, deptTime='12:04 AM, currLocation='Koch'ang
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:04 AM=01GWK9T1HYFECCY54B12BWFH44, 17, SAN, 12:04 AM, Koch'ang
 ]

@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T1R8DMXV58X6CDJT0PP5, currAltitude=4520, destinationAirportCode=PCF, deptTime='12:01 AM, currLocation='Beška
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1R8DMXV58X6CDJT0PP5, 4520, PCF, 12:01 AM, Beška
 ]

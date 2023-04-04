@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T1KPKDFJJW61TVB77ZDS, currAltitude=121, destinationAirportCode=GET, deptTime='12:00 AM, currLocation='Leiria
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T1KPKDFJJW61TVB77ZDS, 121, GET, 12:00 AM, Leiria
 ]

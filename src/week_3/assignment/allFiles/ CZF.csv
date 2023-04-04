@@ -1,2 +1,3 @@
-[12:04 AM=flightId=01GWK9T1YY15XYMEPGFY49THJ6, currAltitude=464, destinationAirportCode=CZF, deptTime='12:04 AM, currLocation='Ulaanbaatar
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:04 AM=01GWK9T1YY15XYMEPGFY49THJ6, 464, CZF, 12:04 AM, Ulaanbaatar
 ]

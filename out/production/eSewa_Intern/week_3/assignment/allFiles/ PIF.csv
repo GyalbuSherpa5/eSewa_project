@@ -1,2 +1,3 @@
-[12:02 AM=flightId=01GWK9T1XKPJ0ZE46YVMT75JGT, currAltitude=97, destinationAirportCode=PIF, deptTime='12:02 AM, currLocation='Suleja
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:02 AM=01GWK9T1XKPJ0ZE46YVMT75JGT, 97, PIF, 12:02 AM, Suleja
 ]

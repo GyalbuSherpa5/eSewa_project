@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T1KT942GHTGG5SGAKEMB, currAltitude=1808, destinationAirportCode=YWK, deptTime='12:01 AM, currLocation='Loureiro
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1KT942GHTGG5SGAKEMB, 1808, YWK, 12:01 AM, Loureiro
 ]

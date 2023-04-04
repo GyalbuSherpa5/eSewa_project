@@ -1,2 +1,3 @@
-[12:00 AM=flightId=01GWK9T172WZ585E4CMP353G3H, currAltitude=0, destinationAirportCode=YGE, deptTime='12:00 AM, currLocation='N/A
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:00 AM=01GWK9T172WZ585E4CMP353G3H, 0, YGE, 12:00 AM, N/A
 ]

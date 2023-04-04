@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T1H0S6P00AYEH829APNN, currAltitude=152, destinationAirportCode=FJR, deptTime='12:01 AM, currLocation='Trincomalee
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1H0S6P00AYEH829APNN, 152, FJR, 12:01 AM, Trincomalee
 ]

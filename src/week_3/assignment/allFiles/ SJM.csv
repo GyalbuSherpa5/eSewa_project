@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T2TVQHS67SG1VTNBT64K, currAltitude=1496, destinationAirportCode=SJM, deptTime='12:01 AM, currLocation='Watuweri
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T2TVQHS67SG1VTNBT64K, 1496, SJM, 12:01 AM, Watuweri
 ]

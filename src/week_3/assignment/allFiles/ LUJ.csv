@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T1DX90YA17S8DVEYXRNH, currAltitude=1831, destinationAirportCode=LUJ, deptTime='12:01 AM, currLocation='Omboué
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1DX90YA17S8DVEYXRNH, 1831, LUJ, 12:01 AM, Omboué
 ]

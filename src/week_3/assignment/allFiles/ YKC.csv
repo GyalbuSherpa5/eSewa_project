@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T229ETT5TVZZ98DJGGCA, currAltitude=1341, destinationAirportCode=YKC, deptTime='12:03 AM, currLocation='Toulouse
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T229ETT5TVZZ98DJGGCA, 1341, YKC, 12:03 AM, Toulouse
 ]

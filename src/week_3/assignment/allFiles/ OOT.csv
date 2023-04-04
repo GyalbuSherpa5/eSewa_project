@@ -1,2 +1,3 @@
-[12:01 AM=flightId=01GWK9T1ZMP07QXN02566E1YAD, currAltitude=7, destinationAirportCode=OOT, deptTime='12:01 AM, currLocation='Gangshangji
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:01 AM=01GWK9T1ZMP07QXN02566E1YAD, 7, OOT, 12:01 AM, Gangshangji
 ]

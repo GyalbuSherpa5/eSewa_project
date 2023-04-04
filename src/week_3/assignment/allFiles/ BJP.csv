@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T1T155H6FDMV8VMXB8F6, currAltitude=2887, destinationAirportCode=BJP, deptTime='12:03 AM, currLocation='Sacramento
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T1T155H6FDMV8VMXB8F6, 2887, BJP, 12:03 AM, Sacramento
 ]

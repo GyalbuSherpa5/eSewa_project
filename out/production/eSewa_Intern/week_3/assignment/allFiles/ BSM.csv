@@ -1,2 +1,3 @@
-[12:02 AM=flightId=01GWK9T20K3Y1FNY7ZRDHVFDHG, currAltitude=-79, destinationAirportCode=BSM, deptTime='12:02 AM, currLocation='Lian’an
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:02 AM=01GWK9T20K3Y1FNY7ZRDHVFDHG, -79, BSM, 12:02 AM, Lian’an
 ]

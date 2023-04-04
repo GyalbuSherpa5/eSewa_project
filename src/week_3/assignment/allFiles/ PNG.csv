@@ -1,2 +1,3 @@
-[12:02 AM=flightId=01GWK9T1XCCJ1V6399F9MXN67F, currAltitude=16, destinationAirportCode=PNG, deptTime='12:02 AM, currLocation='Akat Amnuai
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:02 AM=01GWK9T1XCCJ1V6399F9MXN67F, 16, PNG, 12:02 AM, Akat Amnuai
 ]

@@ -1,2 +1,3 @@
-[12:02 AM=flightId=01GWK9T1NVVG71NC71TTMCK0HB, currAltitude=2073, destinationAirportCode=KAD, deptTime='12:02 AM, currLocation='Cametá
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:02 AM=01GWK9T1NVVG71NC71TTMCK0HB, 2073, KAD, 12:02 AM, Cametá
 ]

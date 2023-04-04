@@ -1,2 +1,3 @@
-[12:04 AM=flightId=01GWK9T2K6PAHSRD3C3JPNA41B, currAltitude=33, destinationAirportCode=TMS, deptTime='12:04 AM, currLocation='Slavkov u Brna
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:04 AM=01GWK9T2K6PAHSRD3C3JPNA41B, 33, TMS, 12:04 AM, Slavkov u Brna
 ]

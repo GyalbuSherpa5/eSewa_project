@@ -1,2 +1,3 @@
-[12:03 AM=flightId=01GWK9T1VJNXKVAJJF7C15CARK, currAltitude=193, destinationAirportCode=RFS, deptTime='12:03 AM, currLocation='Kasaoka
+, flightId, currAltitude, destinationAirportCode, deptTime, currLocation
+,[12:03 AM=01GWK9T1VJNXKVAJJF7C15CARK, 193, RFS, 12:03 AM, Kasaoka
 ]
