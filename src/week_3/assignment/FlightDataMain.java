@@ -37,7 +37,6 @@ public class FlightDataMain {
     static ArrayList<Object> countFile;
 
 
-
     public ArrayList<FlightData> csvReader(BufferedReader br) throws IOException {
 
         ArrayList<FlightData> flight = new ArrayList<>();
@@ -101,17 +100,30 @@ public class FlightDataMain {
                 if (i == j) {
                     finalSorted.put(head.get(i), tail.get(j));
                     try {
-                        ExecutorService service = Executors.newFixedThreadPool(50);
-                        long a = System.nanoTime();
+//                        ExecutorService service = Executors.newFixedThreadPool(50);
+//                        long a = System.nanoTime();
+//
+//                        CsvWriter d = new CsvWriter(head, tail, countFile);
+//                        service.execute(d);
+//
+//                        service.shutdown();
+//                        long b = System.nanoTime();
+//                        System.out.println(b - a);
+                        String variable = head.get(i);
+                        System.out.println(variable + " -> " + countFile.get(i));
+                        PrintWriter p = new PrintWriter("C:\\Users\\hp\\IdeaProjects\\eSewa_Intern\\src\\week_3" +
+                                "\\assignment\\allFiles\\ " + variable + ".csv");
+                        p.println(
+                                ", " +
+                                        "flightId, " +
+                                        "currAltitude, " +
+                                        "destinationAirportCode, " +
+                                        "deptTime, " +
+                                        "currLocation");
+                        p.println("," + tail.get(j));
 
-                        CsvWriter d = new CsvWriter(head, tail, countFile);
-                        service.execute(d);
-
-                        service.shutdown();
-                        long b = System.nanoTime();
-                        System.out.println(b - a);
-
-
+                        p.flush();
+                        p.close();
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
