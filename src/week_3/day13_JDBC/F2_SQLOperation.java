@@ -56,8 +56,5 @@ public class F2_SQLOperation {
         executeUpdate() => non-select queries => return type int
 
         execute() => both select and non-select operations => return boolean if true=> select, if false=>non-select
-
-
-
      */
 }

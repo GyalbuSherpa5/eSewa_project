@@ -28,6 +28,14 @@ public class FlightData{
         return currAltitude;
     }
 
+    public String getFlightId() {
+        return flightId;
+    }
+
+    public String getCurrLocation() {
+        return currLocation;
+    }
+
     @Override
     public String toString() {
         return
