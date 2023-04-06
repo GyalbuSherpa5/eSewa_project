@@ -1,0 +1,4 @@
+Flights{flight_id='01GWK9T1N2SBMR4EAA4HAF6NYE', curr_altitude_fit='40', destination_airpot_code='40', dept_time='BRB', curr_location='12:00 AM'}
+Flights{flight_id='01GWK9T1RKWSTDV6JJYYGYY94S', curr_altitude_fit='40', destination_airpot_code='40', dept_time='INQ', curr_location='N/A'}
+Flights{flight_id='01GWK9T1W1A3KFPZQ3SHCVAVGV', curr_altitude_fit='40', destination_airpot_code='40', dept_time='RMI', curr_location='12:00 AM'}
+Flights{flight_id='01GWK9T2GCJN7ENBJXJEKZCJV0', curr_altitude_fit='40', destination_airpot_code='40', dept_time='JPN', curr_location='N/A'}

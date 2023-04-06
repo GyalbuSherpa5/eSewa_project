@@ -1,0 +1,3 @@
+Flights{flight_id='01GWK9T1SYTXHFJV0KJM3C0NPW', curr_altitude_fit='297', destination_airpot_code='UIP', dept_time='12:00 AM', curr_location='12:00 AM'}
+Flights{flight_id='01GWK9T1TXDP7TK8MZF3C4M7TR', curr_altitude_fit='699', destination_airpot_code='UIP', dept_time='12:04 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1V4G8HR11CKCYHEHCDR', curr_altitude_fit='1213', destination_airpot_code='UIP', dept_time='12:01 AM', curr_location='12:01 AM'}

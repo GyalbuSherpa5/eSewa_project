@@ -1,0 +1,4 @@
+Flights{flight_id='01GWK9T1K9QBQ0WV63M0VP8VW0', curr_altitude_fit='29', destination_airpot_code='29', dept_time='UJE', curr_location='12:03 AM'}
+Flights{flight_id='01GWK9T1NA41XSX12MEHWV9MT6', curr_altitude_fit='29', destination_airpot_code='29', dept_time='LGK', curr_location='N/A'}
+Flights{flight_id='01GWK9T1S6VRVW8HWQXA0ACVJ1', curr_altitude_fit='29', destination_airpot_code='29', dept_time='MQL', curr_location='N/A'}
+Flights{flight_id='01GWK9T2VJTVGEK51071XMDS12', curr_altitude_fit='29', destination_airpot_code='29', dept_time='EIK', curr_location='12:02 AM'}

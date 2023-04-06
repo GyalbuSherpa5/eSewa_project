@@ -1,0 +1,5 @@
+Flights{flight_id='01GWK9T13S6AN661MYBC1JKS59', curr_altitude_fit='98', destination_airpot_code='98', dept_time='UVA', curr_location='12:00 AM'}
+Flights{flight_id='01GWK9T1VCNGV15QTXYD7174DH', curr_altitude_fit='98', destination_airpot_code='98', dept_time='WSP', curr_location='12:01 AM'}
+Flights{flight_id='01GWK9T1WM88FFZPJ4774TBGPY', curr_altitude_fit='98', destination_airpot_code='98', dept_time='IHN', curr_location='N/A'}
+Flights{flight_id='01GWK9T21S2VQH3DTKQ13KY10V', curr_altitude_fit='98', destination_airpot_code='98', dept_time='SMK', curr_location='12:02 AM'}
+Flights{flight_id='01GWK9T2VWWKG7NVNTCAE6RVBW', curr_altitude_fit='98', destination_airpot_code='98', dept_time='BVS', curr_location='N/A'}

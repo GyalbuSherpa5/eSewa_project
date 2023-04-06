@@ -1,0 +1,4 @@
+Flights{flight_id='01GWK9T1JGX27A4HWBCZBWPFDR', curr_altitude_fit='9', destination_airpot_code='9', dept_time='FUN', curr_location='12:03 AM'}
+Flights{flight_id='01GWK9T1NXPT5QXHJ0ET14GRPM', curr_altitude_fit='9', destination_airpot_code='9', dept_time='TAX', curr_location='N/A'}
+Flights{flight_id='01GWK9T1TYWWQ5PGAYAK12S8HP', curr_altitude_fit='9', destination_airpot_code='9', dept_time='FGU', curr_location='N/A'}
+Flights{flight_id='01GWK9T2SAE0J03C7K29EN80A6', curr_altitude_fit='9', destination_airpot_code='9', dept_time='CIS', curr_location='N/A'}

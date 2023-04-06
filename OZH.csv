@@ -1,0 +1,5 @@
+Flights{flight_id='01GWK9T1ZHE8Z6W9XNSD11Q582', curr_altitude_fit='602', destination_airpot_code='OZH', dept_time='12:04 AM', curr_location='12:04 AM'}
+Flights{flight_id='01GWK9T1Y79Y17K61G0Q2K299X', curr_altitude_fit='1428', destination_airpot_code='OZH', dept_time='12:02 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1YS0S21BRZ5NATX8TAV', curr_altitude_fit='1646', destination_airpot_code='OZH', dept_time='12:03 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T202F0J103SX57N9XDX2', curr_altitude_fit='2569', destination_airpot_code='OZH', dept_time='12:00 AM', curr_location='12:00 AM'}
+Flights{flight_id='01GWK9T1ZP2K5HBMPVY0ZWAHPY', curr_altitude_fit='4124', destination_airpot_code='OZH', dept_time='12:01 AM', curr_location='N/A'}

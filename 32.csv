@@ -1,0 +1,4 @@
+Flights{flight_id='01GWK9T1MSBBXFGSFRFX1GXN44', curr_altitude_fit='32', destination_airpot_code='32', dept_time='TCY', curr_location='N/A'}
+Flights{flight_id='01GWK9T1TJ7PV1TXBVDSAT29SY', curr_altitude_fit='32', destination_airpot_code='32', dept_time='CRE', curr_location='N/A'}
+Flights{flight_id='01GWK9T1V9W45496P58K1NNTNX', curr_altitude_fit='32', destination_airpot_code='32', dept_time='HEB', curr_location='N/A'}
+Flights{flight_id='01GWK9T2J20NRQT2D6AYRSW9A3', curr_altitude_fit='32', destination_airpot_code='32', dept_time='STB', curr_location='N/A'}

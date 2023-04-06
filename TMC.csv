@@ -1,0 +1,5 @@
+Flights{flight_id='01GWK9T121ZE8WNMBHSQQ5R9H4', curr_altitude_fit='0', destination_airpot_code='TMC', dept_time='12:03 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T12CE2PWYW7F6GPHZ08N', curr_altitude_fit='42', destination_airpot_code='TMC', dept_time='12:04 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T126PZPHPTQ2BXKMTYW3', curr_altitude_fit='133', destination_airpot_code='TMC', dept_time='12:01 AM', curr_location='12:01 AM'}
+Flights{flight_id='01GWK9T13CMDE9TV0W04H42SG4', curr_altitude_fit='587', destination_airpot_code='TMC', dept_time='12:02 AM', curr_location='12:02 AM'}
+Flights{flight_id='01GWK9T12E5GN0TQ2P8DBWPW9H', curr_altitude_fit='1927', destination_airpot_code='TMC', dept_time='12:00 AM', curr_location='12:00 AM'}

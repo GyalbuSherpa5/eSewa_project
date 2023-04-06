@@ -1,0 +1,3 @@
+Flights{flight_id='01GWK9T1YBK1G1ZASWQTXR2FCB', curr_altitude_fit='67', destination_airpot_code='67', dept_time='ZEN', curr_location='N/A'}
+Flights{flight_id='01GWK9T213JC7X5BZCRCP57SKB', curr_altitude_fit='67', destination_airpot_code='67', dept_time='OZH', curr_location='12:01 AM'}
+Flights{flight_id='01GWK9T2VPWZBYJNKCPRSY204F', curr_altitude_fit='67', destination_airpot_code='67', dept_time='TST', curr_location='N/A'}

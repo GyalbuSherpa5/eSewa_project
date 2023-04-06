@@ -1,0 +1,5 @@
+Flights{flight_id='01GWK9T1PJXV5EVGQ6FP8D9JGD', curr_altitude_fit='21', destination_airpot_code='MQL', dept_time='12:03 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1PFM9BA18RZV77W0GQD', curr_altitude_fit='1788', destination_airpot_code='MQL', dept_time='12:00 AM', curr_location='12:00 AM'}
+Flights{flight_id='01GWK9T1QXZ411GK665NV839Y2', curr_altitude_fit='1860', destination_airpot_code='MQL', dept_time='12:02 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1PGPM6T4083HN3EE2FA', curr_altitude_fit='4260', destination_airpot_code='MQL', dept_time='12:01 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1PE3BPJS9VJDY9KABAM', curr_altitude_fit='5388', destination_airpot_code='MQL', dept_time='12:04 AM', curr_location='12:04 AM'}

@@ -1,0 +1,4 @@
+Flights{flight_id='01GWK9T1FAN6H1SVJX0BQ1B884', curr_altitude_fit='331', destination_airpot_code='UGU', dept_time='12:03 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1FJGQ9S8MW1G27G9JVN', curr_altitude_fit='677', destination_airpot_code='UGU', dept_time='12:04 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1F7RCX865J8WRX3ZYG4', curr_altitude_fit='7348', destination_airpot_code='UGU', dept_time='12:00 AM', curr_location='12:00 AM'}
+Flights{flight_id='01GWK9T2HTNYXP4ZQ4ZFM0HE1Q', curr_altitude_fit='7348', destination_airpot_code='UGU', dept_time='12:01 AM', curr_location='12:01 AM'}

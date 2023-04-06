@@ -1,0 +1,4 @@
+Flights{flight_id='01GWK9T1MT33TXSARTSS5H2DKM', curr_altitude_fit='14', destination_airpot_code='14', dept_time='OTD', curr_location='N/A'}
+Flights{flight_id='01GWK9T2HDBAFAWYJVMQQ2Q95J', curr_altitude_fit='14', destination_airpot_code='14', dept_time='HDH', curr_location='N/A'}
+Flights{flight_id='01GWK9T2NANNNB3T7JDY2PEGZH', curr_altitude_fit='14', destination_airpot_code='14', dept_time='BTE', curr_location='N/A'}
+Flights{flight_id='01GWK9T2QKQCPK01V78A33RDH1', curr_altitude_fit='14', destination_airpot_code='14', dept_time='LNA', curr_location='12:00 AM'}

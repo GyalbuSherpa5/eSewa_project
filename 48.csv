@@ -1,0 +1,4 @@
+Flights{flight_id='01GWK9T153E1JXF8GPEWCDCS6R', curr_altitude_fit='48', destination_airpot_code='48', dept_time='CGS', curr_location='12:01 AM'}
+Flights{flight_id='01GWK9T15BH0P8EHTQHM62H6ZQ', curr_altitude_fit='48', destination_airpot_code='48', dept_time='IGE', curr_location='N/A'}
+Flights{flight_id='01GWK9T1Y18Y83Z2N312VDD7CF', curr_altitude_fit='48', destination_airpot_code='48', dept_time='AMV', curr_location='12:00 AM'}
+Flights{flight_id='01GWK9T2P7P9GQPDA16FEZ62C8', curr_altitude_fit='48', destination_airpot_code='48', dept_time='YYB', curr_location='12:04 AM'}

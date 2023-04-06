@@ -1,0 +1,4 @@
+Flights{flight_id='01GWK9T16KF9Q2EZQ8GYW3DSQH', curr_altitude_fit='26', destination_airpot_code='26', dept_time='ZIH', curr_location='N/A'}
+Flights{flight_id='01GWK9T1KFZB78CE8QZE32T9VM', curr_altitude_fit='26', destination_airpot_code='26', dept_time='IKS', curr_location='N/A'}
+Flights{flight_id='01GWK9T1P192GYC58JVWSZTFKK', curr_altitude_fit='26', destination_airpot_code='26', dept_time='BMQ', curr_location='N/A'}
+Flights{flight_id='01GWK9T2H2CN57ZGQ22W3NFFKC', curr_altitude_fit='26', destination_airpot_code='26', dept_time='BCA', curr_location='12:02 AM'}

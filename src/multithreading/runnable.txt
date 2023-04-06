@@ -1,0 +1,113 @@
+Implementing Runnable Interface to create Thread.
+
+While implementing the thread Interface is recommended because we can extend another class also while implementing
+the Runnable interface and any other many performance and memory level scope.
+
+Thread Scheduler
+Component of Java Which manage and decide which thread to run or execute and which
+thread to wait is called a thread scheduler in java.
+It is only chosen by a thread scheduler if it is in the runnable state.
+
+Two factors of scheduling a thread i.e Priority and Time of arrival
+
+Priority:
+Thread Priorities lies between 1 to 10 and according to it thread
+has got a better chance of getting picked up by the thread scheduler.
+
+Time of Arrival
+If two threads of the same priority enter the runnable state , then priority cannot be the
+factor to pick a thread so arrival time is considered by the thread scheduler.
+
+Java has provide two variant of the sleep() method
+first accept one arguments and other acceptes two arguments.
+Method sleep is used to halt(break) the working of a thread for a given amount of a time.
+amount of the thread remains in sleeping state is known as sleeping time of the thread.
+and after sleeping time is over the thread is execute from where it is slept.
+
+//Native method and implementation is accomplished in another programming language.
+public static void sleep(long mls) throws InterruptedException
+//Non-native method
+public static void sleep(long mls,int n)throws InterruptedException
+
+Important Points
+*Whenever another thread does interruption while current thread is
+in sleep mode then the InterruptedException is thrown.
+*If the system that is executing threads is busy then the actual sleeping time
+of the thread is generally more as compared to the time passed in arguments.
+*IF the system executing the sleep method has less laod then the actual time of the
+thread is almost equal to the time passed in the argument.
+*If we try to use run() method of the thread then it will be called in main stack so no context switching is performed so no separate thread is created
+and vice versa.
+
+
+join() method
+It is provided by the java.lang.Thread class which permits one thread to wait until the other thread to finish its execution.
+
+public final void join() throws InterruptedException
+
+public final synchronized void join(long mls) throws InterruptedException
+//When the join method is invoked the current thread stops its executions and the thread goes in to the wait state.
+  Current thread remains in the wait state until the thread on which the join method invoked is dead or the wait for the
+  specified time frame(in ms) is over.
+
+public final synchronized void join(long mls,int nanos) throws InterruptedException
+//Current Thread remains in wait for provided ms + nanos is over
+
+
+Thread Priorities
+Each thread has a priority and are represented by a number 1 to 10.
+
+Thread Scheduler schedules the threads according to their priority
+known as preemptive scheduling.
+JVM specification choses which scheduling algorithm to use.
+
+Setter and Getter Method of Thread Priority.
+//returns the priority of the thread
+public final int getPriority()
+
+//updates or assign the priority of the thread to newPriority.
+public final void setPriority(int newPriority)
+
+3 constants defined in Thread class
+1.public static int MIN_PRIORITY =1
+2.public static int NORM_PRIORITY =5(Default priority)
+3.public static int MAX_PRIORITY=10
+
+
+Daemon Thread
+Service Provider Thread that provides services to the user thread.
+Its life depend on the mercy of user thread i.e when all the user thread
+dies , JVM terminates this thread automatically.
+
+*You can see all the detail by typing the jconsole in the command prompt. The jconsole tool provides information about the
+loaded classes, memory usage, running threads etc.
+
+Many daemon threads running automatically e.g gc,finalizer etc.
+
+Points to remember
+*Its life depends on user threads
+*It is a low priority thread
+*It provides services to user threads for background supporting task.
+
+Methods for Daemon Thread
+public void setDaemon(boolean status) //used to mark the current thread as daemon or user thread.
+public boolean isDaemon()//To check whether current is daemon.
+
+
+Note: If you want to make a user thread as Daemon, it must not be started otherwise it will throw IllegalThreadStateException.
+
+
+Java Thread Pool
+Represents a group of worker threads that are waiting for the job and reused many times.
+In thread pool group of fixed-size threads is created.
+A thread from the thread pool is pulled out and assigned a job by the service provider.
+
+Thread Pool Methods
+newFixedThreadPool(int s)//Method creates a thread pool of the fixed size
+newCachedThreadPool()//Method creates a new thread pool that creates new threads when needed but will still
+use the previously created thread whenever they are available to use.
+
+Advantages Of Java Thread Pool
+1.Better Peformance
+2.Real Time Usage(Used in Servlet and JSP Where the container creates a thread pool to process the request.
+

@@ -1,0 +1,4 @@
+Flights{flight_id='01GWK9T1N9KGZQ93V3P4T3T71A', curr_altitude_fit='56', destination_airpot_code='56', dept_time='BMQ', curr_location='N/A'}
+Flights{flight_id='01GWK9T1SNM57E2FF0QXEWXQQE', curr_altitude_fit='56', destination_airpot_code='56', dept_time='YSU', curr_location='N/A'}
+Flights{flight_id='01GWK9T1WSX6RZH0T1T214KC5H', curr_altitude_fit='56', destination_airpot_code='56', dept_time='SNA', curr_location='N/A'}
+Flights{flight_id='01GWK9T2MN2B2JXS1Q92B5QXS0', curr_altitude_fit='56', destination_airpot_code='56', dept_time='BME', curr_location='N/A'}

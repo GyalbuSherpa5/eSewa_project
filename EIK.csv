@@ -1,0 +1,4 @@
+Flights{flight_id='01GWK9T2R2HJY3BCQ925RD3VKY', curr_altitude_fit='68', destination_airpot_code='EIK', dept_time='12:02 AM', curr_location='12:02 AM'}
+Flights{flight_id='01GWK9T2RCP73X72R7BS8X9Z3G', curr_altitude_fit='294', destination_airpot_code='EIK', dept_time='12:03 AM', curr_location='12:03 AM'}
+Flights{flight_id='01GWK9T2PSQJJ9JRRME02CYM76', curr_altitude_fit='1797', destination_airpot_code='EIK', dept_time='12:01 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T2PHBPMEKY6GJVVEYMQY', curr_altitude_fit='5950', destination_airpot_code='EIK', dept_time='12:04 AM', curr_location='N/A'}

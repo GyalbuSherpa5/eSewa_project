@@ -1,0 +1,5 @@
+Flights{flight_id='01GWK9T1ZE6TEXZ5GMPFY3MA48', curr_altitude_fit='1476', destination_airpot_code='0', dept_time='12:03 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1GNE4YRV3RWTDTZRPXD', curr_altitude_fit='2133', destination_airpot_code='0', dept_time='12:04 AM', curr_location='12:04 AM'}
+Flights{flight_id='01GWK9T1SSBR23CC11NDQHAA1Q', curr_altitude_fit='2838', destination_airpot_code='0', dept_time='12:00 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T2N5EGEKW7ZR1H18BA0N', curr_altitude_fit='2904', destination_airpot_code='0', dept_time='12:02 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1TYQ7FAZJN4W0DYMRTR', curr_altitude_fit='3609', destination_airpot_code='0', dept_time='12:01 AM', curr_location='N/A'}

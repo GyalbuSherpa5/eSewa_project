@@ -1,0 +1,5 @@
+Flights{flight_id='01GWK9T2J9A25W4BX8CPEMJQXW', curr_altitude_fit='41', destination_airpot_code='YYB', dept_time='12:00 AM', curr_location='12:00 AM'}
+Flights{flight_id='01GWK9T2P7P9GQPDA16FEZ62C8', curr_altitude_fit='48', destination_airpot_code='YYB', dept_time='12:04 AM', curr_location='12:04 AM'}
+Flights{flight_id='01GWK9T2KSMY3GRVEDJYFXZZ7K', curr_altitude_fit='52', destination_airpot_code='YYB', dept_time='12:01 AM', curr_location='12:01 AM'}
+Flights{flight_id='01GWK9T2N7CQ2SN8B29XTH9SQG', curr_altitude_fit='217', destination_airpot_code='YYB', dept_time='12:02 AM', curr_location='12:02 AM'}
+Flights{flight_id='01GWK9T2P9MWQ13EKA0YW8N5RK', curr_altitude_fit='2038', destination_airpot_code='YYB', dept_time='12:03 AM', curr_location='12:03 AM'}

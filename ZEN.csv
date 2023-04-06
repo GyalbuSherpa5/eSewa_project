@@ -1,0 +1,4 @@
+Flights{flight_id='01GWK9T1WK2YNQY26MYR3KZZQD', curr_altitude_fit='27', destination_airpot_code='ZEN', dept_time='12:04 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1WVAS87RX6BKNSYJSHD', curr_altitude_fit='102', destination_airpot_code='ZEN', dept_time='12:03 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1W40S4Z1WVYJ227RV2P', curr_altitude_fit='2166', destination_airpot_code='ZEN', dept_time='12:02 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1XRNSJ50VEVSHJC22SA', curr_altitude_fit='3963', destination_airpot_code='ZEN', dept_time='12:00 AM', curr_location='12:00 AM'}

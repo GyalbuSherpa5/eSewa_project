@@ -1,0 +1,99 @@
+Networking
+Concept of connecting two or more computing devices together so that we can share resources.
+
+Advantages
+*Sharing Resources
+*Centralize Software Management
+
+Java.net package supports two protocols
+*TCP(Transmission Control Protocol)
+Reliabe Communication between sender and receiver because connection oriented.
+
+*UDP(UserDatagram Protocol)
+Connection-less protocol service by allowing packet of data to be transfered along two or more nodes.
+
+Network Terminology
+1.IP Address
+2.Protocol(Set of rules basically followed for communication)
+3.Port Number(Used to uniquely identify different applications. communication endpoints)
+4.MAC Address (Media Access Control) unique identifier Of NIC(Network Interface Controller).
+5.Connection-oriented and Connection-less protocol
+Connection-Oriented(Acknowledgement is sent by the receiver after receiving so reliable but slow in perfromance.)
+ConnectionLess Protocol(Acknowledgement is not sent by the reciever but relaibe but fast.)
+6.Socket(Endpoint between two way communications)
+
+java.net package
+It can be divided into two sections
+1.Low-Level API
+Deals with the abstractions of addresses i.e networking identifers, Sockets i.e bidirectional data communication mechanism
+and Interfaces ile network interfaces
+
+2.High Level API
+Deals with the abstraction of URLs(Universal Resource Identifiers , URLS (Universal Resource Locator and Connections)
+to the resource pointed by URLS.
+
+List of the classes provided by the URLS
+*Authenticator
+*CacheRequest
+*CacheResponse
+*ContentHandler
+*CookieHandler
+*DatagramSocket
+*DatagramSocketImpl
+*InterfaceAddress
+*JarURLConnection
+*MulticastSocket
+*InetSocketAddress
+*InetAddress
+*Inet4Address
+*IDN
+*HttpURLConnection
+*HttpCookie
+
+List of Interfaces
+ContentHandlerFactory
+CookiePolicy
+CookieStore
+DatagramSocketImplFactory
+FileNameMap
+SocketOption<T>
+SocketOptions
+SocketImplFactory
+URLStreamHandlerFactory
+ProtocolFamily
+
+Java Socket Programming
+Used for communication between the applications running on different JRE.
+
+It can be both connection-oriented or Connection-less
+
+Socket and ServerSocket  classes are used for connection oriented socket Programming
+DatagramSocket and DatagramPacket classes are used for connection-less socket Programming
+
+Client must Have:
+1.Ip Address of Server
+2.Port Number
+
+Socket Class
+simply and endpoint for communications between the machines.
+
+Important Methods
+//return the InputStream attached with this socket.
+public InputStream getInputStream()
+/returns the OutputStream attached with this socket.
+public OutputStream getOutputStream()
+public synchronized void close() //closes this socket.
+
+
+ServerSocket
+ServerSocket class can be used to create a server socket.
+Object is used to establish communciation with the clients.
+
+Important Methods
+public Socket accept()//return the socket and establish a connection between server an
+public synchronized void close // closes the server socket.
+
+
+
+
+

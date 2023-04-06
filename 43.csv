@@ -1,0 +1,4 @@
+Flights{flight_id='01GWK9T15G1W0Q42SV7D2RBXWS', curr_altitude_fit='43', destination_airpot_code='43', dept_time='ANX', curr_location='N/A'}
+Flights{flight_id='01GWK9T1KWFS272JHK7GBDH0HP', curr_altitude_fit='43', destination_airpot_code='43', dept_time='SFK', curr_location='12:01 AM'}
+Flights{flight_id='01GWK9T1M78WSCESRJ96V7FE1E', curr_altitude_fit='43', destination_airpot_code='43', dept_time='HTR', curr_location='N/A'}
+Flights{flight_id='01GWK9T21W20EYF7S2ZYHFTVSE', curr_altitude_fit='43', destination_airpot_code='43', dept_time='RRM', curr_location='N/A'}

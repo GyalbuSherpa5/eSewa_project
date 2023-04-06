@@ -1,0 +1,3 @@
+Flights{flight_id='01GWK9T2MAFAQ7HB8PM5TNBA8T', curr_altitude_fit='403', destination_airpot_code='MML', dept_time='12:02 AM', curr_location='12:02 AM'}
+Flights{flight_id='01GWK9T1RB5YKNF15Q5XQJQV2B', curr_altitude_fit='1183', destination_airpot_code='MML', dept_time='12:03 AM', curr_location='12:03 AM'}
+Flights{flight_id='01GWK9T2JYE6P1NX6VQEC8VK2K', curr_altitude_fit='1183', destination_airpot_code='MML', dept_time='12:04 AM', curr_location='N/A'}

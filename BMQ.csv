@@ -1,0 +1,5 @@
+Flights{flight_id='01GWK9T1KV8T7T329S7WGBT8Y9', curr_altitude_fit='15', destination_airpot_code='BMQ', dept_time='12:03 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1N9KGZQ93V3P4T3T71A', curr_altitude_fit='56', destination_airpot_code='BMQ', dept_time='12:00 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1MYXDRZ3YX2A20GP7TX', curr_altitude_fit='266', destination_airpot_code='BMQ', dept_time='12:04 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1JDBE2NT9JV87RRK2WP', curr_altitude_fit='352', destination_airpot_code='BMQ', dept_time='12:02 AM', curr_location='N/A'}
+Flights{flight_id='01GWK9T1HN7JPVV0SQ66VF010Y', curr_altitude_fit='809', destination_airpot_code='BMQ', dept_time='12:01 AM', curr_location='12:01 AM'}

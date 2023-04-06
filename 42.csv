@@ -1,0 +1,4 @@
+Flights{flight_id='01GWK9T12CE2PWYW7F6GPHZ08N', curr_altitude_fit='42', destination_airpot_code='42', dept_time='TMC', curr_location='N/A'}
+Flights{flight_id='01GWK9T13T71HFMXHW5B2FSNQZ', curr_altitude_fit='42', destination_airpot_code='42', dept_time='ETH', curr_location='N/A'}
+Flights{flight_id='01GWK9T1HTPZ9KD1JFZTH0YB7V', curr_altitude_fit='42', destination_airpot_code='42', dept_time='SYK', curr_location='12:04 AM'}
+Flights{flight_id='01GWK9T1XESXA44G41B1YCDCCD', curr_altitude_fit='42', destination_airpot_code='42', dept_time='CAL', curr_location='12:00 AM'}

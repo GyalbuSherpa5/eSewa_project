@@ -1,0 +1,57 @@
+Thread: Flow of Execution or Independent part of the Program.
+MultiThreading
+Concept of executing the multiple independent parts of the program simultanesouly.
+Advantages
+*To increase Performance
+*To reduce ideal time of CPU.
+*To reduce the response time of CPU.
+
+Application of Multitasking
+*To develop multimedia graphics
+*To develop Animation
+*To develop WebServer and Application Server
+
+Ways to define thread in Java
+*By using Runnable Interface
+*By using Thread Class.
+
+JVM is reponsible to schedule the thread to schedule the task of the thread.
+So Exact Order of output is not possible and it is varied from JVM To JVM.
+No guarantee of Exact Output but we can provide several possible output.
+
+If we use run method directly without using start method while running the thread
+then it will invoke method same as normal method and run the program like normal without
+creating separate thread so we need to use the start method to run the thread so it will be
+treated as thread.
+
+
+Start Method of the thread Class.
+start(){
+1.Register this thread with thread Scheduler
+2.Perform all other mandatory activities
+3.Invoke run().
+}
+
+start method is the heart of the Multithreading because it perform all the registering , scheduling and
+other mandatory activities.
+
+
+Overloading of the run method is possible but start method will automatically invoke the run
+method with no-args run method.
+
+It is not recommened to overwrite start method because it will be invoke like normal method and not separate
+thread will be created.
+
+If thread is already started and again next time we try to restart the thread then we will ge the RE: Illegal Thread
+StateException.
+
+Thread Class Constructors(8 Constructors)
+Thread t=new Thread();
+Thread t=new Thread(Runnable r);
+Thread t=new Thread(String Tname);
+Thread t=new Thread(Runnable r,String name);
+Thread t=new Thread(ThreadGroup S,String name);
+Thread t=new Thread(ThreadGroup G,Runnable r);
+Thread t=new Thread(ThreadGroup G,Runnable r,String name);
+Thread t=new Thread(ThreadGroup G, Runnable ,String name,long stacklize);
+
