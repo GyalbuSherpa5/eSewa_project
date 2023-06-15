@@ -1,6 +1,7 @@
 package leetCode.hashMap;
 
 import java.util.HashSet;
+import java.util.Random;
 import java.util.Set;
 
 /*Write an algorithm to determine if a number n is happy.
@@ -42,6 +43,10 @@ public class Solution02HappyNumber202 {
     public static void main(String[] args) {
         // some happy numbers : 1, 10, 19, 32, 68, 82, 100
         System.out.println(isHappy(32));
+
+//        String[] arr = {"Ransom Note","Isomorphic Strings","Word Pattern","Valid Anagram"};
+//        String randomElement = arr[new Random().nextInt(arr.length)];
+//        System.out.println(randomElement);
     }
 
     public static boolean isHappy(int n) {
